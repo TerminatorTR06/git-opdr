@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px;
+}
+#grid{
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    display: grid;
+    height: 70vh;
+    grid-row-gap: 50px;
+    padding-bottom: 75px;
+    padding-top: 50px;
+    grid-column-gap: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+#logo {
+    float: left;
+    border-radius: 50%;
+    width: 80px;
+}
+
+#headerText {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+#nav {
+    padding: 10px;
+    background-color: darkblue;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: white;
+}
+footer{
+    position: fixed;
+    background-color: lightblue;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+
+.moving-image{
+    position: absolute;
+    left: 0;
+    height: 60px;
+    margin-top: 3%;
+}
+#search{
+    float: right;
+    height: 40px;
+    width: 200px;
+    margin-top: 5px
+}
+#searchicon{
+    height: 40px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#fiets1, #fiets2, #fiets3, #fiets4{
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+}
+#fiets1{
+    grid-column: 1;
+    grid-row: 1;
+    display: block;
+}
+.fiets1img{
+    margin-top: 10%;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+#fiets2{
+    grid-column: 2;
+    grid-row: 1;
+}
+#fiets3{
+    grid-column: 1;
+    grid-row: 2;
+}
+#fiets4{
+    grid-column: 2;
+    grid-row: 2;
+}
+.hiddendiv {
+display: none;
+  position: relative;
+  padding: 2%;
+  width: 96%;
+  margin: auto;
+  margin-top: 3%;
+  background-color: lightsteelblue;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+  text-align:left;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+.info{
+    width: 20%;
+    float: right;
+}
+.bikeimg{
+    height: 400px;
+}
+.closediv{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 0.2%;
+    float: right;
+    font-size: 20px;
+}
+.closediv:hover{
+    cursor: pointer;
+}

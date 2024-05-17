@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#logo {
+    float: left;
+    border-radius: 50%;
+    width: 80px;
+}
+
+#headerText {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#nav {
+    padding: 10px;
+    background-color: darkblue;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: white;
+}
+#koptekst{
+  grid-column: 2;
+  margin: auto;
+  font-size: 50px;
+}
+footer{
+    background-color: lightblue;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+.container{
+    position: relative;
+}
+.moving-image{
+    position: absolute;
+    left: 0;
+    height: 60px;
+    margin-top: 3%;
+}
+#search{
+    float: right;
+    height: 40px;
+    width: 200px;
+    margin-top: 5px
+}
+#searchicon{
+    height: 40px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#tekst{
+    text-align: center;
+    background-color: lightskyblue;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}

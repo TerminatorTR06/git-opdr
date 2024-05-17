@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/fietsen.css">
+    <script src="JS/fietsen.js"></script>
+    <title>De Fluitende Fietser</title>
+</head>
+
+<body>
+    <header>
+        <img id="searchicon" alt="search icon" src="images/search-icon.png">
+        <input id="search" type="search">
+        <img id="logo" alt="logo" src="images/fluitendeLogopng.png">
+        <div id="headerText">
+            De Fluitende Fietser
+        </div>
+    </header>
+    <div id="nav">
+        <a id="home" href="mainpage.html">Home</a>
+        <a id="fietsen" href="fietsen.html">fietsen</a>
+        <a id="verhuur" href="verhuur.html">verhuur</a>
+        <a id="contact" href="contact.html">contact</a>
+        <a id="opening" href="openingstijden.html">openingstijden</a>
+        <a id="over" href="overOns.html">over ons</a>
+    </div>
+    <div id="grid">
+        <div id="fiets1" onclick="showdiv1()">
+            <img class="fiets1img" src="images/Pelikaan_Carry_On_Lady.jpg" alt="pelikaan carry on lady">
+            <br>Pelikaan Carry On Lady
+        </div>
+        <div id="fiets2" onclick="showdiv2()">
+            <img class="fiets1img" src="images/Stella_Allegra_voorwielmotor.jpg" alt="pelikaan carry on lady">
+            <br>Stella Allegra voorwielmotor
+        </div>
+        <div id="fiets3" onclick="showdiv3()">
+            <img class="fiets1img" src="images/Gazelle_Orange_C7.jpg" alt="pelikaan carry on lady">
+            <br>Gazelle Orange C7
+        </div>
+        <div id="fiets4" onclick="showdiv4()">
+            <img class="fiets1img" src="images/Gazelle_CityGo_C7.jpg" alt="pelikaan carry on lady">
+            <br>Gazelle CityGo C7
+        </div>
+        <a href="geengeld.html">ik heb geen geld voor een fiets.</a>
+    </div>
+    <div id="hiddencontainer">
+        <div class="hiddendiv" id="bike1">
+            <img class="bikeimg" src="images/Pelikaan_Carry_On_Lady.jpg" alt="Pelikaan_Carry_On_Lady">
+            <a href="fietsen.html" class="closediv" onclick="hidediv()">X</a>
+            <div class="info">
+                <label>Fietscode: 1</label><br>
+                <label>Naam: Pelikaan Carry On Lady</label><br>
+                <label>elektrisch</label><br>
+                <label>geschikt voor zakelijk en prive</label><br>
+                <label>dames</label><br>
+                <label>transport</label><br>
+                <label>Merk: Pelikaan</label><br>
+                <label>nieuw</label><br>
+                <label>zwart</label><br>
+                <label>Prijs: 769,00</label><br>
+                <label>opmerkingen: 28 Inch 53 cm 3V V-Brakes</label><br>
+                <label>huurprijs / dag: 9,99</label>
+            </div>
+        </div>
+        <div class="hiddendiv" id="bike2">
+            <img class="bikeimg" src="images/Stella_Allegra_voorwielmotor.jpg" alt="Stella_Allegra_voorwielmotor">
+            <a href="fietsen.html" class="closediv" onclick="hidediv()">X</a>
+            <div class="info">
+                <label>Fietscode: 2</label><br>
+                <label>Naam: Allegra voorwielmotor</label><br>
+                <label>elektrisch</label><br>
+                <label>geschikt voor zakelijk en prive</label><br>
+                <label>dames</label><br>
+                <label>stads</label><br>
+                <label>Merk: Stella</label><br>
+                <label>nieuw</label><br>
+                <label>zwart</label><br>
+                <label>Prijs: 999,00</label><br>
+                <label>opmerkingen: frameraat S (Lichaamslengte 1,62m - 1,73m)</label><br>
+                <label>huurprijs / dag: 12,49</label>
+            </div>
+        </div>
+        <div class="hiddendiv" id="bike3">
+            <img class="bikeimg" src="images/Gazelle_Orange_C7.jpg" alt="Gazelle_Orange_C7">
+            <a href="fietsen.html" class="closediv" onclick="hidediv()">X</a>
+            <div class="info">
+                <label>Fietscode: 3</label><br>
+                <label>Naam: Gazelle Orange C7+ HMB 2020</label><br>
+                <label>elektrisch</label><br>
+                <label>geschikt voor zakelijk en prive</label><br>
+                <label>heren</label><br>
+                <label>stads</label><br>
+                <label>Merk: Gazelle</label><br>
+                <label>nieuw</label><br>
+                <label>Blauw</label><br>
+                <label>Prijs: 2199,00</label><br>
+                <label>opmerkingen: frameraat 53cm(1.66cm-1.77cm)</label><br>
+                <label>huurprijs / dag: 8,99</label>
+            </div>
+        </div>
+        <div class="hiddendiv" id="bike4">
+            <img class="bikeimg" src="images/Gazelle_CityGo_C7.jpg" alt="Gazelle_CityGo_C7">
+            <a href="fietsen.html" class="closediv" onclick="hidediv()">X</a>
+            <div class="info">
+                <label>Fietscode: 4</label><br>
+                <label>Naam: Gazelle CityGo C7</label><br>
+                <label>niet elektrisch</label><br>
+                <label>geschikt voor zakelijk en prive</label><br>
+                <label>heren</label><br>
+                <label>stads</label><br>
+                <label>Merk: Gazelle</label><br>
+                <label>nieuw</label><br>
+                <label>meerdere</label><br>
+                <label>Prijs: 679,00</label><br>
+                <label>opmerkingen: wielmaat 28 inches</label><br>
+                <label>huurprijs / dag: 15,-</label>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <img src="images/bicycle.png" alt="moving image" class="moving-image" id="movingImage">
+        </div>
+        <a href="overOns.html">Over ons</a>
+        <a href="contact.html">Contact info</a>
+        <a href="mailto:info@fluitendefietser.nl">e-mail</a>
+        <a href="https://www.facebook.com/groups/1353857214706127" target="_blank">Facebook</a><br>
+        <div id="kvk">KVK: 88599665 | BTW NL999888492Z09</div>
+        <a href="https://www.bovag.nl/BovagWebsite/media/BovagMediaFiles/Downloads/Garantie
+        %20en%20voorwaarden/Algemene-voorwaarden-BOVAG-tweewielerbedrijven-april2018.pdf" target="_blank">Algemene voorwaarden</a>
+        <h2>© 2024 Fluitende Fietser</h2>
+    </footer>
+
+</body>
+
+</html>
